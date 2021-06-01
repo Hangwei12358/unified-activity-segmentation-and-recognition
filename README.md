@@ -8,11 +8,16 @@ Source code for our Artificial Intelligence Journal (AIJ) 2021 paper "Weakly-sup
 Codes for data preprocessing on 4 datasets (Skoda, WISDM, HCI and PS) are in folder `./data`. The pre-processed datasets can be downloaded from [HERE](https://drive.google.com/drive/folders/1-ncyXXRg5qMmkJ-8I1xF3kW_3tAQRxXU?usp=sharing).
 
 
-### Segmentation and Classification
-The baselines `e.divisive` and `e.cp3o` are included in file`./code/[data_name]/1_ecp_baselines_all_full_len_parallel.R`. Other baselines, such as `BinSeg`, `BottomUp`, `KCpA`, `KCpE`, `PELT`, `window`, `pDPA`, are included in files `./code/[data_name]/baseline_[baseline_name].py/.R`.
+### Segmentation
+The baselines `e.divisive` and `e.cp3o` are included in file`./code/[data_name]/1_ecp_baselines_all_full_len_parallel.R`. 
+
+Other baselines, such as `BinSeg`, `BottomUp`, `KCpA`, `KCpE`, `PELT`, `window`, `pDPA`, are included in files `./code/[data_name]/baseline_[baseline_name].py/.R`.
 
 The proposed method is included in `./code/[data_name]/proposed_seg_method` folder, wherein `data_3_iteration.m` is the core script.  
+
 Then the `experi_classify_with_various_seg.m` can generate training and test data based on the predicted breakpoints. 
+
+## Prediction
 
 Finally, `./code/[dataset_name]/seg_plus_classify_experi` folder contains code to conduct classification task on segmented data.
 
