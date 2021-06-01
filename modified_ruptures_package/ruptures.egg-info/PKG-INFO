@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ruptures
+Version: 1.0.3
+Summary: Change point detection for signals, in Python
+Home-page: UNKNOWN
+Author: Charles Truong, Laurent Oudre, Nicolas Vayatis
+Author-email: truong@cmla.ens-cachan.fr
+License: BSD License
+Download-URL: https://reine.cmla.ens-cachan.fr/c.truong/ruptures/repository/latest/archive.zip
+Description: Offline change point detection for Python.
+        ------------------------------------------
+        
+        **ruptures** is a Python library for offline change point detection. This package provides methods for the analysis and segmentation of non-stationary signals. Implemented algorithms include exact and approximate detection for various parametric and non-parametric models. **ruptures** focuses on ease of use by providing a well-documented and consistent interface. In addition, thanks to its modular structure, different algorithms and models can be connected and extended within this package.
+        
+        
+        An extensive documentation is available `ctruong.perso.math.cnrs.fr/ruptures <http://ctruong.perso.math.cnrs.fr/ruptures>`_.
+        
+        This version requires Python 3 or later.
+        
+Keywords: change point detection,signal segmentation,computer science,machine learning,kernel methods,time series
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3
+Provides-Extra: display
