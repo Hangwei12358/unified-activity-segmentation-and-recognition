@@ -2,6 +2,8 @@
 Source code for our Artificial Intelligence Journal (AIJ) 2021 paper "Weakly-supervised sensor-based activity segmentation and recognition via learning from distributions". 
 
 
+### Abstract
+>Sensor-based activity recognition aims to recognize users’ activities from multi-dimensional streams of sensor readings received from ubiquitous sensors. It has been shown that data segmentation and feature extraction are two crucial steps in developing machine learning-based models for sensor-based activity recognition. However, most previous studies were only focused on the latter step by assuming that data segmentation is done in advance. In practice, on the one hand, doing data segmentation on sensory streams is very challenging. On the other hand, if data segmentation is considered as a pre-process, the errors in data segmentation may be propagated to latter steps. Therefore, in this paper, we propose a unified weakly-supervised framework based on kernel embedding of distributions to jointly segment sensor streams, extract powerful features from each segment, and train a final classifier for activity recognition. We further offer an accelerated version for large-scale data by utilizing the technique of random Fourier features. We conduct experiments on four benchmark datasets to verify the effectiveness and scalability of our proposed framework.
 
 
 ### Data Preprocessing
