@@ -24,10 +24,12 @@ Finally, `./code/[dataset_name]/seg_plus_classify_experi` folder contains code t
 
 
 
+
+
 Note that some of the baselines require the `ruptures` package. We have modified this package in order to run smoothly. The modified `ruptures` package is under `./modified_ruptures_package` folder.  
 
 
- If you find the codes helpful, kindly cite the paper. 
+ If you find any of the codes helpful, kindly cite our paper. 
 
 > ```
 >@article{DBLP:journals/ai/QianPM21,
