@@ -1,3 +1,4 @@
+% 根据分割结果生成分割数据，作为SMM的输入
 % this code is to generate segmented data according to segmented results to be the input of SMM
 % by Hangwei, 07-May-2018 15:00:08
 % this function is to get the prob. of each segment under the assumption
